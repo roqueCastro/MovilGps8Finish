@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.movilgps.activities.Encuesta">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Encuestas"
+        android:textSize="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewLatitud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Latitud"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/editTextLatitud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:textColor="#020101"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewLongitud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Longitud"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/editTextLongitud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1"
+            android:textColor="#020101"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/btnatras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="atras"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+
+            <Button
+                android:id="@+id/btnListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="listView"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

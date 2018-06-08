@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.movilgps.fragments.MapFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/fragment_map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <Button
+        android:id="@+id/cargar_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:textColor="#EFE9E9"
+        android:text="Cargar Mapa"
+        android:textSize="35px"
+        android:background="@drawable/boton_redondo"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/FabGps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_gps"
+        />
+
+</FrameLayout>
